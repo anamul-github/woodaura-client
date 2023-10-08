@@ -3,7 +3,7 @@ import { FaRegLightbulb } from 'react-icons/fa';
 const Hero = () => {
     return (
         <section
-            className="bg-no-repeat bg-cover bg-[url('./Assets/Home/banner.png')] w-screen h-screen"
+            className="bg-no-repeat bg-cover bg-[url('./Assets/Home/banner.png')] w-screen h-screen lg:h-auto xl:h-screen lg:pb-8"
         >
             <div className="pt-48 ml-4 lg:ml-12 lg:pt-32">
                 <h1 className="text-green-100 text-4xl md:text-5xl lg:text-8xl font-bold">
