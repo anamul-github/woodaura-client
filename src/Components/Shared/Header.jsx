@@ -1,4 +1,4 @@
-// import { useState } from "react";
+
 import logo from "../../Assets/Navbar/icons8-treehouse-100.png";
 import { FaBars } from 'react-icons/fa';
 import { MdClose } from 'react-icons/md';
@@ -21,10 +21,10 @@ const Header = () => {
         <Disclosure as="nav" className="absolute top-0">
             {({ open }) => (
                 <>
-                    <div className="mx-auto w-screen px-2 sm:px-6 lg:px-8">
+                    <div className="mx-auto w-screen px-2 sm:px-6 lg:px-8 border-b-2 border-b-gray-600/50">
                         <div className="w-full relative flex h-16 items-center justify-between">
                             {/* logo */}
-                            <div className="flex flex-1 items-center sm:items-stretch pl-2 md:pl-auto justify-start">
+                            <div className="flex flex-1 items-center sm:items-stretch pl-2 md:pl-4 justify-start">
                                 <div className="flex flex-shrink-0 items-center">
                                     <img
                                         className="block h-8 w-auto lg:hidden"
