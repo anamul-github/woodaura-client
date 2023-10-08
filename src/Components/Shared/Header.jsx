@@ -36,7 +36,7 @@ const Header = () => {
                                         src={logo}
                                         alt="Your Company"
                                     />
-                                    <p className="font-bold lg:text-3xl ml-2 text-green-100">WOODAURA</p>
+                                    <p className="font-bold lg:text-3xl ml-2 text-green-100 font-alegreya">Woodaura</p>
                                 </div>
 
                             </div>
