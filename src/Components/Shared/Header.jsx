@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import logo from "../../Assets/Navbar/cabin.png";
+import logo from "../../Assets/Navbar/icons8-treehouse-100.png";
 import { FaBars } from 'react-icons/fa';
 import { MdClose } from 'react-icons/md';
 import { Disclosure } from '@headlessui/react';
@@ -24,7 +24,7 @@ const Header = () => {
                     <div className="mx-auto w-screen px-2 sm:px-6 lg:px-8">
                         <div className="w-full relative flex h-16 items-center justify-between">
                             {/* logo */}
-                            <div className="flex flex-1 items-center lg:justify-center sm:items-stretch pl-2 md:pl-auto justify-start">
+                            <div className="flex flex-1 items-center sm:items-stretch pl-2 md:pl-auto justify-start">
                                 <div className="flex flex-shrink-0 items-center">
                                     <img
                                         className="block h-8 w-auto lg:hidden"
