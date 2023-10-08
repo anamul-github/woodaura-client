@@ -5,10 +5,12 @@ import { MdClose } from 'react-icons/md';
 import { Disclosure } from '@headlessui/react';
 
 const navigation = [
-    { name: 'Dashboard', href: '#', current: true },
-    { name: 'Team', href: '#', current: false },
-    { name: 'Projects', href: '#', current: false },
-    { name: 'Calendar', href: '#', current: false },
+    { name: 'Home', href: '#', current: true },
+    { name: 'Categories', href: '#', current: false },
+    { name: 'Services', href: '#', current: false },
+    { name: 'Testimonials', href: '#', current: false },
+    { name: 'Dashboard', href: '#', current: false },
+    { name: 'FAQ', href: '#', current: false }
 ]
 
 function classNames(...classes) {
