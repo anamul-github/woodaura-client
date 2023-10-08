@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import logo from "../../Assets/Navbar/logo.png";
+import logo from "../../Assets/Navbar/cabin.png";
 import { FaBars } from 'react-icons/fa';
 import { MdClose } from 'react-icons/md';
 import { Disclosure } from '@headlessui/react';
@@ -36,6 +36,7 @@ const Header = () => {
                                         src={logo}
                                         alt="Your Company"
                                     />
+                                    <p className="font-bold lg:text-3xl ml-2 text-green-100">WOODAURA</p>
                                 </div>
 
                             </div>
