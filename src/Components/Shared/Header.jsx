@@ -24,7 +24,7 @@ const Header = () => {
                     <div className="mx-auto w-screen px-2 sm:px-6 lg:px-8">
                         <div className="w-full relative flex h-16 items-center justify-between">
                             {/* logo */}
-                            <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                            <div className="flex flex-1 items-center lg:justify-center sm:items-stretch pl-2 md:pl-auto justify-start">
                                 <div className="flex flex-shrink-0 items-center">
                                     <img
                                         className="block h-8 w-auto lg:hidden"
